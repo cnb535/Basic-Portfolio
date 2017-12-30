@@ -1,3 +1,9 @@
+html {
+	width: 100%;
+	min-width: 1398px;
+	display: inline-block;
+}
+
 h1, h2, h3 {
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -18,7 +24,7 @@ li {
 
 .entire {
 	display: inline-block;
-	width: 1183px;
+	width: 1398px;
 	padding: 38px 0px;
 }
 
@@ -61,6 +67,9 @@ li {
 }
 
 #navbar ul {
+	width: 627px;
+	padding: 0px;
+	margin: 0px;
 	position: relative;
 	left: 380px;
 	top: 33px;
@@ -128,7 +137,7 @@ li {
 }
 
 #main p {
-	font-size: 19px;
+	font-size: 18px;
 	line-height: 1.7;
 	display: inline;
 }
@@ -139,7 +148,7 @@ li {
 	padding: 30px;
 	float: right;
 	position: relative;
-	left: -25px;
+	left: -239px;
 }
 
 #sidebar h3 {
@@ -151,6 +160,9 @@ li {
 }
 
 #sidebar hr {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #c9c9c9;
 	margin-bottom: 20px;
 }
 
