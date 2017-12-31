@@ -16,6 +16,35 @@ li {
 	float: left;
 }
 
+form {
+	position: relative;
+	top: -8px;
+}
+
+textarea {
+	width: 584px;
+	height: 190px;
+	border-color: #dfdfdf;
+}
+
+input[type="text"] {
+	width: 584px;
+	height: 22px;
+	margin-bottom: 7px;
+	font-size: 15px;
+}
+
+input[type="submit"] {
+	width: 117px;
+	height: 41px;
+	margin-top: 20px;
+	background-color: #a9c6fb;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 19px;
+	font-weight: bolder;
+	color: #ffffff;
+}
+
 .background {
 	background-image: url(../images/intersection.png);
 	background-repeat: repeat;
@@ -109,8 +138,6 @@ li {
 	padding: 28px 20px 20px 20px;
 	color: #ffffff;
 }
-
-
 
 #main {
 	display: inline-block;
@@ -209,10 +236,34 @@ li {
 	background-image: url(../images/rps.jpg);
 }
 
-input[type="submit"] {
-	width: 117px;
-	height: 41px;
-	background-color: #a9c6fb;
+#contact {
+	display: inline-block;
+	width: 590px;
+	height: 524px;
+	position: relative;
+	left: 160px;
+	padding: 40px 30px;
+	margin-right: 41px;	
+}
+
+#contact h2 {
+	font-size: 30px;
+	font-weight: bolder;
+	color: #a9c6fb;
+	margin-bottom: 30px;
+}
+
+#contact hr {
+	border-width: 1.5px;
+	border-style: solid;
+	border-color: #c9c9c9;
+	margin-bottom: 30px;
+}
+
+#contact p {
+	font-size: 18px;
+	line-height: 2;
+	display: inline;
 }
 
 #sidebar {
