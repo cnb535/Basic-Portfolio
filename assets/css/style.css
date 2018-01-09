@@ -4,6 +4,11 @@ html {
 	display: inline-block;
 }
 
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
 h1, h2, h3 {
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -49,6 +54,8 @@ input[type="submit"] {
 	background-image: url(../images/intersection.png);
 	background-repeat: repeat;
 	background-attachment: fixed;
+	min-height: 731px;
+	margin-bottom: -50px;
 }
 
 .entire {
@@ -90,6 +97,10 @@ input[type="submit"] {
 .footer p {
 	font-size: 12px;
 	padding: 40px 368px;
+}
+
+.footer, .push {
+	height: 100px;
 }
 
 #navbar {
@@ -142,7 +153,7 @@ input[type="submit"] {
 #main {
 	display: inline-block;
 	width: 590px;
-	height: 480px;
+	height: 384px;
 	position: relative;
 	left: 160px;
 	padding: 40px 30px;
@@ -173,6 +184,10 @@ input[type="submit"] {
 	font-size: 18px;
 	line-height: 1.7;
 	display: inline;
+}
+
+#bg-long {
+	margin-bottom: 0px;
 }
 
 #gallery {
