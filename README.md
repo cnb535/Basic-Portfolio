@@ -1,2 +1,2 @@
 # Basic-Portfolio
-My developer portfolio page
+A basic developer portfolio page. It features a bio page, gallery page, and contact page.
